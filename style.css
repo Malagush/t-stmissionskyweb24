@@ -1,0 +1,49 @@
+
+body{  /* параметры блока боди*/
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.marg{
+     margin-top: 30px; /* отступ сверху */
+     margin-left: 25px; /* отступ слева */
+}
+    
+.right{ 
+    justify-content: flex-end; /* расположение справа */
+
+}
+    
+.left{
+    justify-content: start;/* расположение слева */
+}
+.tablered {
+    background: red; /* Цвет фона элемента таблицы */
+   }
+.tablegreen {
+    background: green; /* Цвет фона элемента таблицы */
+}
+td{	/* параметры одного элемента таблицы */
+    width: 100px;
+    height: 100px;
+     text-align: center;
+}
+
+td.on {		/* цвет нажатого элемента таблицы */
+    background-color: green;
+}
+
+.notClick{	/* некликабельные дни(другой месяц) */
+    pointer-events: none;
+    cursor: default;
+}
+
+.button1 {		/* параметры кнопки */
+    background: MediumSeaGreen; /* зеленый цвет фона */ 
+    color: white; /* Белые буквы */ 
+   }
+   
+ .button1:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {		/* параметры кнопки при наведении */
+    background-color: ForestGreen;
+}
